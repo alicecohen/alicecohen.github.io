@@ -44,14 +44,19 @@ section{
 }
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
+  margin-left: 25%;
+  margin-right: 50%;
+  width: 50%;
+  resize: inline;
+  text-align: center;
 }
 .video {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  align: center;
+
 }
 ul{
   padding-inline-start: 0px;
@@ -62,7 +67,7 @@ ul{
 li{
   width: 100%;
   font-family: system-ui;
-  padding-inline-start: 10%;
+  padding-inline-start: 0%;
   margin-left: auto;
   margin-right: auto;
   list-style: none;
