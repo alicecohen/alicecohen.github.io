@@ -50,6 +50,14 @@ section{
   resize: inline;
   text-align: center;
 }
+.center1 {
+  display: block;
+  margin-left: 39%;
+  margin-right: auto;
+  width: 25%;
+  resize: inline;
+  text-align: center;
+}
 .video {
   display: block;
   margin-left: auto;
@@ -68,8 +76,8 @@ li{
   width: 100%;
   font-family: system-ui;
   padding-inline-start: 0%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0%;
+  margin-right: 11%;
   list-style: none;
   font-size: 125%;
   text-align: left;
