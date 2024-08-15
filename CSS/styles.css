@@ -1,19 +1,31 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.red-hat-mono-<uniquifier> {
+  font-family: "Red Hat Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 body {
+    font-family: "Red Hat Mono";
     background-color: rgb(118, 118, 118);
     background-size: 400px;
 }
 
 h1 {
+
   color: black;
-  font-size: 300%;
-  text-decoration:underline;
-  font-family: system-ui;
+  font-size: 200%;
+  letter-spacing: 1px;
+  font-family: "Red Hat Mono";
   text-align: left;
-  text-shadow: 3px 3px 0px darkgray;
+  text-shadow: 5px 5px 1px darkgray;
 }
 
 h2 {
+  font-family: "Red Hat Mono";
   color: black;
   font-size: 100%;
   text-decoration:underline;
@@ -21,17 +33,20 @@ h2 {
   text-align: center;
 }
 section {
+    font-family: "Red Hat Mono";
   float: left;
   vertical-align: top;
 }
 
 p {
+    font-family: "Red Hat Mono";
   color: black;
   text-align: left;
   font-family: sans-serif;
   font-size: 100%;
 }
 .works {
+    font-family: "Red Hat Mono";
   margin-left: auto;
   margin-right:auto;
   color: black;
@@ -40,9 +55,11 @@ p {
   font-size: 100%;
 }
 section{
+
   margin-left: auto;
 }
 .center {
+  font-family: "Red Hat Mono";
   display: block;
   margin-left: 25%;
   margin-right: 50%;
@@ -51,14 +68,17 @@ section{
   text-align: center;
 }
 .center1 {
+  font-family: "Red Hat Mono";
   display: block;
-  margin-left: 39%;
-  margin-right: auto;
-  width: 25%;
+  margin-left: auto;
+  margin-right: 25%;
+  width: 50%;
   resize: inline;
   text-align: center;
+  align: center;
 }
 .video {
+  font-family: "Red Hat Mono";
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -67,14 +87,15 @@ section{
 
 }
 ul{
+  font-family: "Red Hat Mono";
   padding-inline-start: 0px;
   width: 10%;
   float: left;
 
 }
 li{
+  font-family: "Red Hat Mono";
   width: 100%;
-  font-family: system-ui;
   padding-inline-start: 0%;
   margin-left: 0%;
   margin-right: 11%;
