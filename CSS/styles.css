@@ -12,7 +12,6 @@ body {
     font-family: "Red Hat Mono";
     background-color: rgb(118, 118, 118);
     background-image: url("../img/texture.jpg");
-    background-image: rgba(0, 1, 1,1);
 
     background-repeat:repeat;
     background-size: 400px;
